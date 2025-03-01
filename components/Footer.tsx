@@ -2,11 +2,11 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="flex h-12 items-center justify-between p-4 text-primary md:h-24 lg:p-20 xl:p-40">
-      <Link href="/" className="text-xl font-bold uppercase">
-        Massimo
+    <div className="flex h-12 items-center justify-between p-4 text-primary md:h-24 lg:px-20 xl:px-40">
+      <Link href="/" className="text-xl font-bold">
+        MASSIMO
       </Link>
-      <p>All rights reserved.</p>
+      <p>© ALL RIGHTS RESERVED.</p>
     </div>
   );
 };

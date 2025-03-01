@@ -15,7 +15,12 @@ const CategoryPage = () => {
         >
           {pizza.img && (
             <div className="relative h-[80%]">
-              <Image src={pizza.img} fill alt="" className="object-contain" />
+              <Image
+                src={pizza.img}
+                fill
+                alt=""
+                className="object-contain transition-all duration-300 ease-in-out hover:rotate-[6deg]"
+              />
             </div>
           )}
           <div className="flex items-center justify-between">
